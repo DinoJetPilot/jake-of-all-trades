@@ -1,2 +1,2 @@
 # jake-of-all-trades
-## repo for personal website
+repo for personal website
