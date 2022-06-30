@@ -1,0 +1,40 @@
+:root {
+    --main-text-color: #0f0a25;
+
+    --primary-color-1: #0f0a25;
+    --primary-color-2: #0f0a25;
+    --primary-color-3: #0f0a25;
+
+    --accent-color-1: #00463e;
+    --accent-color-2: #00463e;
+    --accent-color-3: #00463e;
+
+    --custom-bg-color: #dcf7fc;
+}
+
+.btn-outline-secondary {
+    color: red;
+}
+
+.customButton {
+    --bs-btn-padding-y: .2rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .5rem;
+}
+
+.mini-icon {
+    width: 15px;
+}
+
+.avatar {
+    width: 300px;
+    margin: auto;
+}
+
+.profile {
+    text-align: center;
+}
+
+#middle-container {
+    margin: auto;
+}

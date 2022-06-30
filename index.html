@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Jason "Jake" Millet | The Veritable Jake-of-All-Trades</title>
 
-    <link rel="stylesheet" href="misc/styles.css">
+
     <link rel="icon" href="misc/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,77 +16,243 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;700;800;900&family=Bitter:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap"
         rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="misc/custom.css">
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 
-    <div id="top-container">
-        <h1>Jason Millet</h1>
-        <p>a veristale web dev dude.</p>
-        <img id="avatar" src="images/jm-sketch.png" alt='Jason "Jake" Millet'>
-    </div>
+    <main>
 
-    <div class="middle-container">
-        <div class="profile">
-            <img src="" alt="">
-            <h2>"Jake" of All Trades</h2>
-            <p>A man of many names and many talents.
-            </p>
+        <div id="top-container" class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold">Jason Millet</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">a versatile web dev dude.</p>
+                <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                </div> -->
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+                <div class="container px-5">
+                    <img src="" class="" alt="It's all in the cards.">
+                </div>
+            </div>
         </div>
 
-        <hr>
-        <div class="experience">
-            <h2>Work Experience</h2>
-            <div class="exp-row">
-                <img class="" src="" alt="">
-                <h3>Lorem & Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna
-                    lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-            </div>
+        <!-- <p class="text-primary">.text-primary</p>
+            <p class="text-secondary">.text-secondary</p>
+            <p class="text-success">.text-success</p>
+            <p class="text-danger">.text-danger</p>
+            <p class="text-warning bg-dark">.text-warning</p>
+            <p class="text-info bg-dark">.text-info</p>
+            <p class="text-light bg-dark">.text-light</p>
+            <p class="text-dark">.text-dark</p>
+            <p class="text-body">.text-body</p>
+            <p class="text-muted">.text-muted</p>
+            <p class="text-white bg-dark">.text-white</p>
+            <p class="text-black-50">.text-black-50</p>
+            <p class="text-white-50 bg-dark">.text-white-50</p> -->
+        </div>
 
-            <hr>
-            <div class="skills">
-                <h2>Skills & Abilities</h2>
-                <div class="skills-row">
-                    <img class="" src="" alt="">
-                    <h3>Lorem Ipsum Dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna
-                        lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-                </div>
-                <div class="skills-row">
-                    <img class="" src="" alt="">
-                    <h3>Lorem Ipsum Dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis
-                        mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-                </div>
-            </div>
-
-            <hr>
-            <div class="contact">
-                <h2>Get In Touch</h2>
-                <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-                <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.
+        <div id="middle-container">
+            <div class="profile">
+                <h2>"Jake" of All Trades</h2>
+                <img class="rounded-circle border border-5 avatar" src="images/jm-sketch.png" alt='Jason "Jake" Millet'>
+                <p>Hi, this is me. A man of many names and many talents.
                 </p>
-                <a class="btn" href="mailto:jason.millet@gmail.com">Contact Me</a>
+
+
             </div>
-        </div>
+
+            <hr>
+
+            <div class="experience">
+                <h2>Work Experience</h2>
+                <div class="info-row">
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Acadiana Renaissance Charter Academy <a href="https://www.acadianacharter.org/"
+                                target="_blank"><img src="images/ionicons/link-outline.svg" class="mini-icon"></a>
+                        </h3>
+                        <p>August 2015 - May 2022</p>
+                        <h4>High
+                            School Computer Science & Business
+                            Teacher<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp1" aria-expanded="false"
+                                aria-controls="collapseExp1">Show/Hide Duties
+                            </button>
+                        </h4>
+                        <p>
+                        <div class="collapse" id="collapseExp1">
+                            <div class="card card-body">
+                                <p>August 2021 - May 2022</p>
+                                <ul>
+                                    <li>Classroom management for multiple middle & high school classes.</li>
+                                    <li>Planned and taught computer science and coding class curriculum.</li>
+                                    <li>Taught state-approved universal career readiness class for a Carnegie Unit.
+                                    </li>
+                                    <li>Managed the after-school robotics club.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        </p>
+                        <h4>5th Grade ELA & Social Studies Teacher<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp1a" aria-expanded="false"
+                                aria-controls="collapseExp1a">Show/Hide Duties
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp1a">
+                            <div class="card card-body">
+                                <p>August 2015 - May 2021</p>
+                                <ul>
+                                    <li>The team lead for our grade level (2019 - 2021).</li>
+                                    <li>Worked with multiple grade levels for curriculum alignment.</li>
+                                    <li>Planned and taught grade-level curriculum with data-driven instruction for both
+                                        subjects.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Jake & Jill Photography <a href="https://www.jakeandjillphotography.com/"
+                                target="_blank"><img src="images/ionicons/link-outline.svg" class="mini-icon"></a></h3>
+                        <p>March 2021 - Present</p>
+                        <h4>Photographer, Webmaster & Co-Creator<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp2" aria-expanded="false"
+                                aria-controls="collapseExp2">Show/Hide Duties
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp2">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Handle business filings and financial documents for the business.</li>
+                                    <li>Photographer for family and wedding photo sessions.</li>
+                                    <li>Assisted in designing and implementing graphics and branding elements.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Lafayette & Vermilion School Systems</h3>
+                        <p>August 2014 - May 2015</p>
+                        <h4>Lon-term Substitute Teacher</h4>
+                        <p>
+                            Lorem ipsum.
+                        </p>
+                    </div>
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Place</h3>
+                        <p>Dates</p>
+                        <h4>Title</h4>
+                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
+                            nunc
+                            urna
+                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+                    </div>
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Place</h3>
+                        <p>Dates</p>
+                        <h4>Title</h4>
+                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
+                            nunc
+                            urna
+                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+                    </div>
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Place</h3>
+                        <p>Dates</p>
+                        <h4>Title</h4>
+                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
+                            nunc
+                            urna
+                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+                    </div>
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Place</h3>
+                        <p>Dates</p>
+                        <h4>Title</h4>
+                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
+                            nunc
+                            urna
+                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="skills">
+                    <h2>Skills & Abilities</h2>
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Lorem Ipsum Dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
+                            nunc
+                            urna
+                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+                    </div>
+                    <div class="info-row">
+                        <img class="" src="" alt="">
+                        <h3>Lorem Ipsum Dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum,
+                            lacus
+                            quis
+                            mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="contact">
+                    <h2>Get In Touch</h2>
+                    <div class="info-row">
+                        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+                        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec
+                            dui, ornare
+                            erat.
+                        </p>
+                    </div>
+                    <a class="btn" href="mailto:contact@jake-of-all-trades.com">Email Me</a>
+                </div>
+            </div>
 
 
-        <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/in/jason-millet-b15ab59/">LinkedIn</a>
-            |
-            <a class="footer-link" href="https://github.com/DinoJetPilot">GitHub</a>
-            |
-            <a class="footer-link" href="https://codepen.io/dinojetpilot">CodePen</a>
-            |
-            <a class="footer-link" href="https://www.frontendmentor.io/profile/DinoJetPilot">Frontend Mentor</a>
-            <p class="footer-link">&copy;
-                <script>document.write(new Date().getFullYear())</script> Jason "Jake" Milet - All Rights Reserved.
-            </p>
-        </div>
+            <div id="bottom-container">
+                <a class="footer-link" href="https://www.linkedin.com/in/jason-millet-b15ab59/">LinkedIn</a>
+                |
+                <a class="footer-link" href="https://github.com/DinoJetPilot">GitHub</a>
+                |
+                <a class="footer-link" href="https://codepen.io/dinojetpilot">CodePen</a>
+                |
+                <a class="footer-link" href="https://www.frontendmentor.io/profile/DinoJetPilot">Frontend
+                    Mentor</a>
+                <p class="footer-link">&copy;
+                    <script>document.write(new Date().getFullYear())</script> Jason "Jake" Milet - All Rights
+                    Reserved.
+                </p>
+            </div>
 
 
-
+    </main>
 </body>
 
 </html>
