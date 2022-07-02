@@ -1,19 +1,66 @@
 :root {
-    --main-text-color: #0f0a25;
+    --main-text: #111b13;
 
-    --primary-color-1: #0f0a25;
-    --primary-color-2: #0f0a25;
-    --primary-color-3: #0f0a25;
+    --primary-1: #386641;
+    --primary-2: #6a994e;
+    --primary-3: #a7c957;
 
-    --accent-color-1: #00463e;
-    --accent-color-2: #00463e;
-    --accent-color-3: #00463e;
+    --accent-1: #bc4749;
+    --accent-2: #891516;
 
-    --custom-bg-color: #dcf7fc;
+    --custom-bg-1: #f2e8cf;
+    --custom-bg-2: #d6cbad;
 }
 
-.btn-outline-secondary {
-    color: red;
+body {
+    font-family: 'Bitter', serif;
+    background-color: var(--custom-bg-1);
+}
+
+h1, h2, h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 0.9rem;
+}
+
+
+a:link, a:hover {
+    color: var(--accent-1);
+}
+
+a:visited, a:active, a::after {
+    color: var(--accent-2);
+}
+
+.info-row {
+    padding-top: 15px;
+}
+
+.card-body {
+    background-color: var(--custom-bg-2);
+}
+
+.btn-outline-secondary, .btn-outline-secondary::after, .btn-outline-secondary:visited, .btn-outline-secondary:focus {
+    color: var(--accent-1);
+    border-color: var(--accent-1);
+    background-color: var(--custom-bg-1);
+    box-shadow: none;
+    transition-duration: 0.4s;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:active {
+    background-color: var(--accent-1);
+    border-color: var(--accent-1);
+    color: white;
+    box-shadow: none;
+    transition-duration: 0.4s;
+    /* --bs-btn-focus-shadow-rgb: 108,117,125; */
 }
 
 .customButton {

@@ -75,9 +75,30 @@
 
             <div class="experience">
                 <h2>Work Experience</h2>
+                <!-- Using Bootstrap buttons to show/hide full listing (with title), but multi-collapse only toggles. JS would be more ideal.
+                    
+                    <h4><button type="button" class="btn btn-outline-secondary ms-3 customButton rounded-0 rounded-start"
+                        data-bs-toggle="collapse" data-bs-target=".multiCollapse" aria-expanded="true"
+                        aria-controls="collapseExpM collapseExpC" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Show only education-related experience">Education
+                    </button> <button type="button" class="btn btn-outline-secondary m-0 customButton rounded-0"
+                        data-bs-toggle="collapse" data-bs-target=".collapseExpM" aria-expanded="true"
+                        aria-controls="collapseExpM" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Show only management experience">Management
+                    </button> <button type="button" class="btn btn-outline-secondary m-0 customButton rounded-0"
+                        data-bs-toggle="collapse" data-bs-target=".collapseExpC" aria-expanded="true"
+                        aria-controls="collapseExpC" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Show only creative experience">Creative
+                    </button> <button type="button"
+                        class="btn btn-outline-secondary m-0 customButton rounded-0 rounded-end"
+                        data-bs-toggle="collapse" data-bs-target=".collapseExpX" aria-expanded="true"
+                        aria-controls="collapseExpX" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Show all work experience">All
+                    </button> </h4> -->
+
                 <div class="info-row">
+
                     <div class="info-row">
-                        <img class="" src="" alt="">
                         <h3>Acadiana Renaissance Charter Academy <a href="https://www.acadianacharter.org/"
                                 target="_blank"><img src="images/ionicons/link-outline.svg" class="mini-icon"></a>
                         </h3>
@@ -87,7 +108,7 @@
                             Teacher<button type="button"
                                 class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
                                 data-bs-toggle="collapse" data-bs-target="#collapseExp1" aria-expanded="false"
-                                aria-controls="collapseExp1">Show/Hide Duties
+                                aria-controls="collapseExp1">Details
                             </button>
                         </h4>
                         <p>
@@ -109,7 +130,7 @@
                         <h4>5th Grade ELA & Social Studies Teacher<button type="button"
                                 class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
                                 data-bs-toggle="collapse" data-bs-target="#collapseExp1a" aria-expanded="false"
-                                aria-controls="collapseExp1a">Show/Hide Duties
+                                aria-controls="collapseExp1a">Details
                             </button></h4>
                         <p>
                         <div class="collapse" id="collapseExp1a">
@@ -125,15 +146,15 @@
                         </div>
                         </p>
                     </div>
+
                     <div class="info-row">
-                        <img class="" src="" alt="">
                         <h3>Jake & Jill Photography <a href="https://www.jakeandjillphotography.com/"
                                 target="_blank"><img src="images/ionicons/link-outline.svg" class="mini-icon"></a></h3>
                         <p>March 2021 - Present</p>
                         <h4>Photographer, Webmaster & Co-Creator<button type="button"
                                 class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
                                 data-bs-toggle="collapse" data-bs-target="#collapseExp2" aria-expanded="false"
-                                aria-controls="collapseExp2">Show/Hide Duties
+                                aria-controls="collapseExp2">Details
                             </button></h4>
                         <p>
                         <div class="collapse" id="collapseExp2">
@@ -147,109 +168,336 @@
                         </div>
                         </p>
                     </div>
+
                     <div class="info-row">
-                        <img class="" src="" alt="">
                         <h3>Lafayette & Vermilion School Systems</h3>
                         <p>August 2014 - May 2015</p>
-                        <h4>Lon-term Substitute Teacher</h4>
+                        <h4>Long-term Substitute Teacher<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp3" aria-expanded="false"
+                                aria-controls="collapseExp3">Details
+                            </button></h4>
                         <p>
-                            Lorem ipsum.
+                        <div class="collapse" id="collapseExp3">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>2015 - Substitute at Charles Burke Elem. and Herod Elem.</li>
+                                    <li>2014 - Completed student teaching for certification at Milton EM/MS.</li>
+                                </ul>
+                            </div>
+                        </div>
                         </p>
                     </div>
-                    <div class="info-row">
-                        <img class="" src="" alt="">
-                        <h3>Place</h3>
-                        <p>Dates</p>
-                        <h4>Title</h4>
-                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
-                            nunc
-                            urna
-                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-                    </div>
-                    <div class="info-row">
-                        <img class="" src="" alt="">
-                        <h3>Place</h3>
-                        <p>Dates</p>
-                        <h4>Title</h4>
-                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
-                            nunc
-                            urna
-                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-                    </div>
-                    <div class="info-row">
-                        <img class="" src="" alt="">
-                        <h3>Place</h3>
-                        <p>Dates</p>
-                        <h4>Title</h4>
-                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
-                            nunc
-                            urna
-                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-                    </div>
-                    <div class="info-row">
-                        <img class="" src="" alt="">
-                        <h3>Place</h3>
-                        <p>Dates</p>
-                        <h4>Title</h4>
-                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
-                            nunc
-                            urna
-                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-                    </div>
-                </div>
 
-                <hr>
-
-                <div class="skills">
-                    <h2>Skills & Abilities</h2>
                     <div class="info-row">
-                        <img class="" src="" alt="">
-                        <h3>Lorem Ipsum Dolor</h3>
-                        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
-                            nunc
-                            urna
-                            lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-                    </div>
-                    <div class="info-row">
-                        <img class="" src="" alt="">
-                        <h3>Lorem Ipsum Dolor</h3>
-                        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum,
-                            lacus
-                            quis
-                            mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-                    </div>
-                </div>
+                        <h3>Golfballs.com <a href="https://golfballs.com/" target="_blank"><img
+                                    src="images/ionicons/link-outline.svg" class="mini-icon"></a></h3>
+                        <p>May 2014 - August 2015</p>
+                        <h4>Production Artist<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp4" aria-expanded="false"
+                                aria-controls="collapseEx43">Details
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp4">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Responsible for mixing and quality assurance for <a
+                                            href="https://www.golfballs.com/Personalized-Golf.html"
+                                            target="_blank">printing
+                                            production</a>.</li>
+                                    <li>Maintained and produced accurate ink mixtures to Pantone specifications.</li>
+                                    <li>Responsible for maintenance on ink mixing machine.</li>
+                                    <li>Sent schematics to the laser etcher for plate burning.</li>
+                                    <li>Created, prepared, and separated graphics for print in Illustrator.</li>
 
-                <hr>
-
-                <div class="contact">
-                    <h2>Get In Touch</h2>
-                    <div class="info-row">
-                        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-                        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec
-                            dui, ornare
-                            erat.
+                                </ul>
+                            </div>
+                        </div>
                         </p>
                     </div>
-                    <a class="btn" href="mailto:contact@jake-of-all-trades.com">Email Me</a>
-                </div>
-            </div>
+
+                    <div class="info-row">
+                        <h3>DigitTales Media <a href="https://digitalesmedia.com/" target="_blank"><img
+                                    src="images/ionicons/link-outline.svg" class="mini-icon"></a></h3>
+                        <p>April 2014 - October 2015</p>
+                        <h4>Animator<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp5" aria-expanded="false"
+                                aria-controls="collapseExp5">Details
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp5">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Freelance contract work for creating, modifying and editing 2D graphics and
+                                        various animated segments for an Arabic children's program, <a
+                                            href="https://www.youtube.com/c/BookInPlayRoom/featured"
+                                            target="_blank">Fatfooteh</a>.</li>
+                                    <li><a href="https://youtu.be/eRiZN3Qe0Kk?t=43" target="_blank">Example of 2D
+                                            animated graphics work</a></li>
+                                    <li><a href="https://youtube.com/playlist?list=PLegHXy4UablcFjglhws9IagYRF0UxBPau"
+                                            target="_blank">Various examples of the animated segments</a></li>
+                                    <li><a href="https://youtu.be/A5neRQi3edE?t=504" target="_blank">Example 1 within an
+                                            episode</a></li>
+                                    <li><a href="https://youtu.be/4UFfbE6bWug?t=345" target="_blank">Example 2 within
+                                            and
+                                            episode</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+
+                    <div class="info-row">
+                        <h3>KLFY News 10 <a href="https://www.klfy.com/" target="_blank"><img
+                                    src="images/ionicons/link-outline.svg" class="mini-icon"></a>
+                        </h3>
+                        <p>March 2006 - March 2014</p>
+                        <h4>Digital Sales Manager<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp6" aria-expanded="false"
+                                aria-controls="collapseExp6">Details
+                            </button>
+                        </h4>
+                        <p>
+                        <div class="collapse" id="collapseExp6">
+                            <div class="card card-body">
+                                <p>September 2013 - March 2014</p>
+                                <ul>
+                                    <li>Managed all digital platforms and digital product implementations. </li>
+                                    <li>Worked alongside sales department to fulfill sold ad slots on mobile/web.</li>
+                                    <li>In charge of implementing new features and bug testing.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        </p>
+                        <h4>Promotions & Marketing Director<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp6a" aria-expanded="false"
+                                aria-controls="collapseExp6a">Details
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp6a">
+                            <div class="card card-body">
+                                <p>May 2012 - September 2013</p>
+                                <ul>
+                                    <li>Managed the department for station <a href="https://youtu.be/NpAVePla3Vw"
+                                            target="_blank">marketing</a> <a href="https://youtu.be/NPR6iOMBBdg"
+                                            target="_blank">videos</a> and <a href="https://youtu.be/GDqQmxH4Dks"
+                                            target="_blank">graphics</a>.</li>
+                                    <li>Worked alongside the news department to <a href="https://youtu.be/kSdmZkkc-28"
+                                            target="_blank">create</a> <a href="https://youtu.be/sF4TFBXd-T8"
+                                            target="_blank">promotions</a>.</li>
+                                    <li>Script writing and video production for events and <a
+                                            href="https://youtu.be/LHuSoxdoNKw" target="_blank">sponsorships</a>.</li>
+                                    <li>Scheduled community involvement for events/sponsorships.</li>
+                                    <li>Maintained promotional and FCC required PSA on-air/online traffic. </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </p>
+                        <h4>Creative Services Manager<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp6b" aria-expanded="false"
+                                aria-controls="collapseExp6b">Details
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp6b">
+                            <div class="card card-body">
+                                <p>June 2009 - May 2012</p>
+                                <ul>
+                                    <li>Managed the station's commercial production department.</li>
+                                    <li>Work with the sales department to fulfill contract work for packages.</li>
+                                    <li>Assisted clients in creating on-air/online videos for commercial ads.</li>
+                                    <li>Pitched concepts, wrote scripts, directed talent, shot, and edited video.</li>
+                                    <li>Work with master control and traffic department to run air schedules.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </p>
+                        <h4>Commercial Production Assistant/Editor<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp6c" aria-expanded="false"
+                                aria-controls="collapseExp6c">Details
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp6c">
+                            <div class="card card-body">
+                                <p>March 2006 - June 2009</p>
+                                <ul>
+                                    <li>Worked directly under the Creative Services Manager.</li>
+                                    <li>Assisted in script writing, video shooting, editing commercials.</li>
+                                    <li>Created graphical elements for commercial and promotional materials.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+
+                    <div class="info-row collapse show collapseExpM multiCollapse">
+                        <h3>McAlister's Deli <a
+                                href="https://locations.mcalistersdeli.com/la/lafayette/4409-ambassador-caffery-pkwy"
+                                target="_blank"><img src="images/ionicons/link-outline.svg" class="mini-icon"></a></h3>
+                        <p>December 2004 - March 2006</p>
+                        <h4>Assistant Manager<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp7" aria-expanded="false"
+                                aria-controls="collapseExp7">Details
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp7">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Hired as employee to work front/back-of-house duties with the
+                                        intention of moving into management position after fully trained.</li>
+                                    <li>Managed multiple employees each shift.</li>
+                                    <li>Handled customer relations and quality assurance in food orders
+                                        Assisted with front- and back-of-house employees as needed.</li>
+                                    <li>Completed closing duties and paperwork for inventory, payroll and hiring.</li>
+                                    <li>Responsible for delegation of employee placement and training.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+
+                    <div class="info-row">
+                        <h3>Vidox Motion Imagery <a href="http://vidox.com/" target="_blank"><img
+                                    src="images/ionicons/link-outline.svg" class="mini-icon"></a></h3>
+                        <p>June 2003 - August 2004</p>
+                        <h4>Production Assistant<button type="button"
+                                class="btn btn-outline-secondary mx-3 customButton rounded-0 rounded-end"
+                                data-bs-toggle="collapse" data-bs-target="#collapseExp8" aria-expanded="false"
+                                aria-controls="collapseExp8">Details
+                            </button></h4>
+                        <p>
+                        <div class="collapse" id="collapseExp8">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Assisted lead videographer with video production shoots.</li>
+                                    <li>Worked with 2D and 3D software programs to create motion graphic elements.</li>
+                                    <li>Assisted with commercial edits and digital asset management.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="education">
+                        <h2>Education</h2>
+                        <div class="info-row">
+
+                            <h3>University of Louisiana at Lafayette <a href="https://louisiana.edu/"
+                                    target="_blank"><img src="images/ionicons/link-outline.svg" class="mini-icon"></a>
+                            </h3>
+                            <p>Certification: Elementary Education (Grades 1-5)</p>
+                        </div>
+                        <div class="info-row">
+
+                            <h3>University of Louisiana at Lafayette <a href="https://louisiana.edu/"
+                                    target="_blank"><img src="images/ionicons/link-outline.svg" class="mini-icon"></a>
+                            </h3>
+                            <p>Bachelors: Fine Arts (Multimedia)</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="skills">
+                        <h3>Abilities</h3>
+                        <div class="info-row">
+
+                            <div class="container">
+                                <div class="row align-items-start">
+                                    <div class="col">
+                                        One of three columns
+                                    </div>
+                                    <div class="col">
+                                        One of three columns
+                                    </div>
+                                    <div class="col">
+                                        One of three columns
+                                    </div>
+                                </div>
+                                <table class="table table-borderless">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2</td>
+                                    </tr>
+                                </table>
+
+                                <p>Personnel & Team Management</p>
+                                <p>Detail Oriented</p>
+                                <p>Problem Solving</p>
+                                <p>Project Management</p>
+                                <p>Cooperation & Learning</p>
 
 
-            <div id="bottom-container">
-                <a class="footer-link" href="https://www.linkedin.com/in/jason-millet-b15ab59/">LinkedIn</a>
-                |
-                <a class="footer-link" href="https://github.com/DinoJetPilot">GitHub</a>
-                |
-                <a class="footer-link" href="https://codepen.io/dinojetpilot">CodePen</a>
-                |
-                <a class="footer-link" href="https://www.frontendmentor.io/profile/DinoJetPilot">Frontend
-                    Mentor</a>
-                <p class="footer-link">&copy;
-                    <script>document.write(new Date().getFullYear())</script> Jason "Jake" Milet - All Rights
-                    Reserved.
-                </p>
-            </div>
+
+
+                            </div>
+                            <h3>Skills</h3>
+                            <div class="info-row">
+
+                                <p>Microsoft Applications</p>
+                                <p>Google Applications</p>
+                                <p>Adobe Creative Suite</p>
+                                <p>HTML & CSS Knowledge</p>
+                                <p>JavaScript Capabilities</p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="contact">
+                            <h2>Get In Touch</h2>
+                            <div class="info-row">
+                                <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+                                <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec
+                                    dui, ornare
+                                    erat.
+                                </p>
+                            </div>
+                            <a class="btn" href="mailto:contact@jake-of-all-trades.com">Email Me</a>
+                        </div>
+                    </div>
+
+
+                    <div id="bottom-container">
+                        <a class="footer-link" href="https://www.linkedin.com/in/jason-millet-b15ab59/">LinkedIn</a>
+                        |
+                        <a class="footer-link" href="https://github.com/DinoJetPilot">GitHub</a>
+                        |
+                        <a class="footer-link" href="https://codepen.io/dinojetpilot">CodePen</a>
+                        |
+                        <a class="footer-link" href="https://www.frontendmentor.io/profile/DinoJetPilot">Frontend
+                            Mentor</a>
+                        <p class="footer-link">&copy;
+                            <script>document.write(new Date().getFullYear())</script> Jason "Jake" Milet - All Rights
+                            Reserved.
+                        </p>
+                    </div>
 
 
     </main>
